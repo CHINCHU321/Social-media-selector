@@ -26,14 +26,12 @@ body{
   border-radius: 5px;
   padding: 10px;
   opacity: 0.7;
-
 }
 .social-lists li{
   background-color: lightgray;
   display: flex;
   align-items: center;
   cursor: pointer;
-
 }
 .social-lists li:hover{
   background-color: gray;
@@ -51,17 +49,8 @@ align-items: center;
   margin: 0 10px;
 }
 
-.social-lists li .fa-facebook{
-  color: rgb(12, 12, 110);
-}
-.social-lists li .fa-youtube{
-  color: rgb(211, 21, 21);
-}
-.social-lists li .fa-twitter{
-color: rgb(8, 8, 123);
-}
-.social-lists li .fa-linkedin{
-  color: rgb(8, 8, 123);
+.rotate .fas {
+  transform: rotate(180deg);
 }
 .hide {
   visibility: hidden;
