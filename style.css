@@ -5,9 +5,37 @@ body{
   align-items:center;
   justify-content:center;
   height: 100vh;
+  font-family: sans-serif;
+  background:linear-gradient(135deg, blue 30%, yellow 80%);
 }
-
-
-.social-lists li{
+.menu{
+  padding:0 10px 0 18px;
+  border-radius: 5px;
+  width: 300px;
+  height: 40px;
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.social-lists{
+  width: 300px;
+  background: lightgrey;
   list-style-type: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+.social-lists ul{
+  margin: 0;
+  padding: 0;
+}
+.social-lists li{
+  background-color: lightgray;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.menu p{
+display: flex;
 }
