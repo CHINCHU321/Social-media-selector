@@ -7,11 +7,13 @@ menuE1.addEventListener('click', () =>{
   socialListsE1.classList.toggle('hide');
   menuE1.classList.toggle('rotate');
 
-})
+});
 liE1s.forEach((liE1s) =>{
 
   liE1s.addEventListener("click", ()=>{
-
-  })
-})
+    menuTextE1.innerHTML = liE1s.innerHTML;
+    socialListsE1.classList.add('hide');
+    menuE1.classList.toggle('rotate');
+  });
+});
 
