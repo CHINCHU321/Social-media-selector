@@ -9,15 +9,15 @@ body{
   background:linear-gradient(135deg, blue 30%, yellow 80%);
 }
 .menu{
-  padding:0 10px 0 18px;
+  padding: 10px ;
   border-radius: 5px;
   width: 300px;
-  height: 40px;
   background-color: lightgray;
   display: flex;
   align-items: center;
   justify-content: space-between;
   cursor: pointer;
+  opacity: 0.7;
 }
 .social-lists{
   width: 300px;
@@ -25,17 +25,44 @@ body{
   list-style-type: none;
   border-radius: 5px;
   padding: 10px;
-}
-.social-lists ul{
-  margin: 0;
-  padding: 0;
+  opacity: 0.7;
+
 }
 .social-lists li{
   background-color: lightgray;
   display: flex;
   align-items: center;
   cursor: pointer;
+
+}
+.social-lists li:hover{
+  background-color: gray;
+  border-radius: 5px;
+  padding-left: 10px;
+  transition: padding 0.2s linear;
+
 }
 .menu p{
+  margin: 0 10px;
 display: flex;
+align-items: center;
+}
+.social-lists li .fab {
+  margin: 0 10px;
+}
+
+.social-lists li .fa-facebook{
+  color: rgb(12, 12, 110);
+}
+.social-lists li .fa-youtube{
+  color: rgb(211, 21, 21);
+}
+.social-lists li .fa-twitter{
+color: rgb(8, 8, 123);
+}
+.social-lists li .fa-linkedin{
+  color: rgb(8, 8, 123);
+}
+.hide {
+  visibility: hidden;
 }
