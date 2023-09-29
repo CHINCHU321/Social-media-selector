@@ -8,5 +8,10 @@ menuE1.addEventListener('click', () =>{
   menuE1.classList.toggle('rotate');
 
 })
+liE1s.forEach((liE1s) =>{
 
-console.log("menuE1");
+  liE1s.addEventListener("click", ()=>{
+
+  })
+})
+

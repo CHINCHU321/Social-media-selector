@@ -48,7 +48,9 @@ align-items: center;
 .social-lists li .fab {
   margin: 0 10px;
 }
-
+.menu .fas{
+  transition: transform .2s;
+}
 .rotate .fas {
   transform: rotate(180deg);
 }
